@@ -280,10 +280,8 @@ st.caption("Document-grounded question answering — demonstration mode")
 st.markdown(
     """
     <div class="demo-banner">
-        <strong>DEMO MODE:</strong> This version demonstrates the same user-facing
-        RAG workflow without requiring a Gemini API key. It uses local PDF extraction,
-        chunking, lightweight retrieval, conversation history, and source citations.
-        It does <strong>not</strong> use Gemini embeddings, FAISS, or an LLM.
+        <strong>DEMO MODE:</strong> This version demonstrates
+        RAG workflow without requiring a Gemini API key. 
     </div>
     """,
     unsafe_allow_html=True,
